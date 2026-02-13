@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html>
+	<body>
+		<h2>O que o JavaScript pode fazer</h2>
+		<p>O JavaScript pode alterar atributos HTML</p>
+		<p>
+			Neste casos o JavaScript muda o valor do
+			atributo scr (source) de uma imagem.
+		</p>
+		<button onclick="document.getElementById('minhaImagem').scr=
+			'luz ligada.png'">ligar a luz</button">
+
+		<img id="minhaImagem" scr="luz_desligada.png" style="width:100px">
+		
+		<button onclick="document.getElementById('minhaImagem').scr=
+			'luz_desligada.png'">desligar a luz</button>
+	</body>
+</html>
