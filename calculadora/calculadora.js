@@ -35,6 +35,7 @@ function calculadora () {
             
             
         } else { 
+        
             alert("Operador inválido!");
             operador_valido = false;
             continua = prompt ("digite sim para continuar e não para encerrar.");
@@ -42,12 +43,12 @@ function calculadora () {
                    return 
             
                 } 
-            }
-            if(operador != "/" || operando2 != 0 ){
-  
-         alert ("Resultado: " +
-         operando1 + " " + operador + " " + operando2 + " = " + resultado) ;
         }
+        if( (operador != "/" || operando2 != 0)  && operador_valido != false ){ 
+  
+            alert ("Resultado: " +
+                operando1 + " " + operador + " " + operando2 + " = " + resultado + operador_valido);
+        } 
     }   
 
 }       
