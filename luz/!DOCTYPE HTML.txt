@@ -15,4 +15,4 @@
 		<button onclick="document.getElementById('minhaImagem').scr=
 			'luz_desligada.png'">desligar a luz</button>
 	</body>
-</html>
+</html> 
